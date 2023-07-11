@@ -40,3 +40,19 @@ esModuleInterop - Resolve problema de imports/require/babbel entre as biblioteca
 
 Paths sao alias para a urlBase, sempre bom usar o @ para isso.
 Mas o commonjs Javascript nao sabe por isso usaremos uma biblioteca para isso: module-alias (@types/module-alias)
+
+
+strict
+
+strictNullChecks
+verifica a presença de possíveis null ou undefined ao passar parametros com criterio obrigatório e tipo definido.
+Evita possíveis erros em runtime
+
+strinctFunctionTypes
+verifica se a tipagem e a obrigatoriedade dos parametros da função estao de acordo com os da interface q o implementa.
+
+strictProprietyInitialization
+obriga todas as propriedades de uma classe a terem um valor inicial ou um valor setado no construtor.
+
+noImplicityAny
+não considera uma variavel sem tipagem como any, se quer um any bote um any, ou melhor NAO BOTE ANY
